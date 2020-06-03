@@ -1,25 +1,25 @@
 # For parameter details refer to the cli spec: https://docs.microsoft.com/en-us/cli/azure/ext/azure-cli-ml/ml/computetarget/create?view=azure-cli-latest#ext-azure-cli-ml-az-ml-computetarget-create-amlcompute
-  #rm-service-connection: #Service connection for resource manager
-  #print-cli-string: true #Print the constructed CLI
-  #max-nodes:
-  #name:
-  #vm-size:
-  #admin-user-password:
-  #admin-user-ssh-key:
-  #admin-username:
-  #description:
-  #idle-seconds-before-scaledown:
-  #min-nodes:
-  #no-wait:
-  #path:
-  #remote-login-port-public-access:
-  #resource-group:
-  #subnet-name:
-  #tag:
-  #vm-priority:
-  #vnet-name:
-  #vnet-resourcegroup-name:
-  #workspace-name:
+  rm-service-connection: #Service connection for resource manager
+  print-cli-string: true #Print the constructed CLI
+  max-nodes:
+  name:
+  vm-size:
+  admin-user-password:
+  admin-user-ssh-key:
+  admin-username:
+  description:
+  idle-seconds-before-scaledown:
+  min-nodes:
+  no-wait:
+  path:
+  remote-login-port-public-access:
+  resource-group:
+  subnet-name:
+  tag:
+  vm-priority:
+  vnet-name:
+  vnet-resourcegroup-name:
+  workspace-name:
 
 jobs:
 - job: ProvisionAMLCompute
